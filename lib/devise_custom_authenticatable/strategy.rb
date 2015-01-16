@@ -7,7 +7,7 @@ module Devise::Strategies
     def authenticate!
       resource  = valid_password? && mapping.to.find_for_custom_authentication(authentication_hash)
       unless resource.respond_to?(:valid_for_custom_authentication?) and
-          resource.valid_for_custom_authentication?
+          resource.valid_for_custom_authentication?(password)
         return pass
       end
 
