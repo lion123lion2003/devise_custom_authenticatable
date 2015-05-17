@@ -1,4 +1,4 @@
-This is ehancements for https://github.com/AMekss/devise_custom_authenticatable.
+This is enhancements for https://github.com/AMekss/devise_custom_authenticatable.
 Please refer to https://github.com/AMekss/devise_custom_authenticatable for documentation.
 
 ## Changes
